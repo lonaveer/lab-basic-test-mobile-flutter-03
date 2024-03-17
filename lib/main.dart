@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:my_flutter_app/pages/login_page.dart';
+// import 'package:my_flutter_app/pages/login_page.dart';
+import 'package:my_flutter_app/pages/animation_page.dart';
 
 void main() {
   // runApp(const MyApp());
-  runApp(LoginPageApp());
+  // runApp(LoginPageApp());
+  runApp(AnimationPageApp());
 }
 
 class MyApp extends StatelessWidget {
