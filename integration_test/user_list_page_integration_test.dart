@@ -9,9 +9,9 @@ void main() {
   group('User List Page Pagination Tests', () {
     // testWidgets('Initial load should show first 3 users', (WidgetTester tester) async {
     //   // เรียกฟังก์ชัน main() ของหน้า User List Page ขึ้นมา , เพื่อโหลด APP ขึ้นมาแสดงผล
-    //   xxxxx____1.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+    //   xxxxx____1.จงเติมคำตอบที่ถูกต้อง_____xxxxx.main();
 
-    //   // รอจนกว่า APP จะโหลดขึ้นมาจนเสร็จสิ้น
+    //   // รอจนกว่า APP จะโหลดขึ้นมาจนเสร็จสิ้น (ใช้ pumpAndSettle)
     //   xxxxx____2.จงเติมคำตอบที่ถูกต้อง_____xxxxx
 
     //   // รอจนกว่า API จะโหลดเสร็จสิ้น
@@ -44,7 +44,7 @@ void main() {
     //   await tester.pumpAndSettle();
 
     //   // ตรวจสอบผลลัพธ์ : User List หน้าถัดไป ต้องมีข้อมูลทั้งหมด 3 รายการ
-    //   xxxxx____6.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+    //   expect(find.byType(ListTile), xxxxx____6.จงเติมคำตอบที่ถูกต้อง_____xxxxx);
     // });
 
     // testWidgets('Navigate to previous page after next page should show previous 3 users', (WidgetTester tester) async {
@@ -57,19 +57,19 @@ void main() {
     //   // รอจนกว่า API จะโหลดเสร็จสิ้น
     //   xxxxx____9.จงเติมคำตอบที่ถูกต้อง_____xxxxx
 
-    //   // กดปุ่ม Next เพื่อดูข้อมูล User List หน้าถัดไป
-    //   xxxxx____10.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+    //   // กดปุ่ม Next (Icons.navigate_next) เพื่อดูข้อมูล User List หน้าถัดไป
+    //   await tester.tap(find.byIcon(xxxxx____10.จงเติมคำตอบที่ถูกต้อง_____xxxxx));
 
-    //   // รอ Animation เปลี่ยน User List เป็นหน้าถัดไป
+    //   // รอ Animation เปลี่ยน User List เป็นหน้าถัดไป (ใช้ pumpAndSettle)
     //   xxxxx____11.จงเติมคำตอบที่ถูกต้อง_____xxxxx
 
     //   // ตรวจสอบผลลัพธ์ : User List หน้าถัดไป ต้องมีข้อมูลทั้งหมด 3 รายการ
-    //   xxxxx____12.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+    //    expect(find.byType(ListTile), xxxxx____12.จงเติมคำตอบที่ถูกต้อง_____xxxxx);
 
     //   // กดปุ่ม Before เพื่อดูข้อมูล User List หน้าก่อนหน้า
     //   await tester.tap(find.byIcon(Icons.navigate_before));
 
-    //   // รอ Animation เปลี่ยน User List เป็นหน้าก่อนหน้า
+    //   // รอ Animation เปลี่ยน User List เป็นหน้าก่อนหน้า (ใช้ pumpAndSettle)
     //   xxxxx____13.จงเติมคำตอบที่ถูกต้อง_____xxxxx
 
     //   // ตรวจสอบผลลัพธ์ : User List หน้าก่อนหน้า ต้องมีข้อมูลทั้งหมด 3 รายการ

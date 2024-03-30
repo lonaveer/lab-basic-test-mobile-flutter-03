@@ -9,15 +9,15 @@ void main() {
   group('Product List Integration Test', () {
     // testWidgets('Test if products are loaded and displayed', (WidgetTester tester) async {
     //   // เรียกฟังก์ชัน main ของหน้า Login เพื่อโหลดแอปพลิเคชันขึ้นมาแสดงผล
-    //   xxxxx____1.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+    //   xxxxx____1.จงเติมคำตอบที่ถูกต้อง_____xxxxx.main();
 
-    //   // รอให้แอปพลิเคชันเริ่มต้น
+    //   // รอให้แอปพลิเคชันเริ่มต้น (ใช้ pumpAndSettle)
     //   xxxxx____2.จงเติมคำตอบที่ถูกต้อง_____xxxxx
 
     //   // รอจนกว่า API จะโหลดเสร็จสิ้น
     //   final DateTime endTime = xxxxx____3.จงเติมคำตอบที่ถูกต้อง_____xxxxx;
     //   while (xxxxx____4.จงเติมคำตอบที่ถูกต้อง_____xxxxx) {
-    //     xxxxx____5.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+    //     await tester.pump(xxxxx____5.จงเติมคำตอบที่ถูกต้อง_____xxxxx);
     //     if (xxxxx____6.จงเติมคำตอบที่ถูกต้อง_____xxxxx) {
     //       xxxxx____7.จงเติมคำตอบที่ถูกต้อง_____xxxxx // หากพบข้อมูลที่คาดหวัง , ออกจากลูป
     //     } else {
@@ -27,10 +27,10 @@ void main() {
     //   };
 
     //   // ตรวจสอบว่า CircularProgressIndicator หายไปหลังจากโหลดข้อมูลเสร็จสิ้น
-    //   xxxxx____8.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+    //   expect(find.byType(xxxxx____8.จงเติมคำตอบที่ถูกต้อง_____xxxxx), findsNothing);
 
     //   // ตรวจสอบว่ามี ListTile ถูกแสดงบนหน้าจอซึ่งหมายความว่าข้อมูลถูกโหลดและแสดงผลเรียบร้อย
-    //   xxxxx____9.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+    //   expect(find.byType(xxxxx____9.จงเติมคำตอบที่ถูกต้อง_____xxxxx), findsWidgets);
     // });
   });
 }

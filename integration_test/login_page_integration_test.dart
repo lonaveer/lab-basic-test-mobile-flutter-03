@@ -17,19 +17,19 @@ void main() {
       // await tester.pumpAndSettle();
 
       // // กรอกข้อมูล 'usertest' ลงใน TextField 'usernameField'
-      // await tester.enterText(xxxxx____1.จงเติมคำตอบที่ถูกต้อง_____xxxxx);
+      // await tester.enterText(find.byKey(Key('usernameField')), xxxxx____1.จงเติมคำตอบที่ถูกต้อง_____xxxxx);
 
       // // กรอกข้อมูล 'password123' ลงใน TextField 'passwordField'
-      // xxxxx____2.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+      // await tester.enterText(xxxxx____2.จงเติมคำตอบที่ถูกต้อง_____xxxxx);
 
-      // // กดปุ่ม login
-      // xxxxx____3.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+      // // กดปุ่ม login ('loginButton')
+      // await tester.tap(find.byKey(Key(xxxxx____3.จงเติมคำตอบที่ถูกต้อง_____xxxxx)));
 
       // // รอการเปลี่ยนหน้า
       // await tester.pumpAndSettle();
 
       // // ตรวจสอบว่าหน้า Dashboard ถูกแสดงพร้อมข้อมูลผู้ใช้
-      // xxxxx____4.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+      // expect(find.text('Welcome, Mock User!'), xxxxx____4.จงเติมคำตอบที่ถูกต้อง_____xxxxx);
     // });
 
     // testWidgets('Login Failure Display Alert', (WidgetTester tester) async {
@@ -37,13 +37,13 @@ void main() {
       // xxxxx____5.จงเติมคำตอบที่ถูกต้อง_____xxxxx
 
       // // รอให้แอปพลิเคชันเริ่มต้น
-      // xxxxx____6.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+      // await tester.xxxxx____6.จงเติมคำตอบที่ถูกต้อง_____xxxxx();
 
       // // กรอกข้อมูล 'wrongUser' ลงใน TextField 'usernameField'
-      // await tester.enterText(xxxxx____7.จงเติมคำตอบที่ถูกต้อง_____xxxxx);
+      // await tester.enterText(xxxxx____7.จงเติมคำตอบที่ถูกต้อง_____xxxxx, 'wrongUser');
 
       // // กรอกข้อมูล 'wrongPassword' ลงใน TextField 'passwordField'
-      // await tester.enterText(xxxxx____8.จงเติมคำตอบที่ถูกต้อง_____xxxxx);
+      // await tester.enterText(find.byKey(Key('passwordField')), xxxxx____8.จงเติมคำตอบที่ถูกต้อง_____xxxxx);
 
       // // กดปุ่ม login
       // xxxxx____9.จงเติมคำตอบที่ถูกต้อง_____xxxxx(find.byKey(Key('loginButton')));
@@ -52,7 +52,7 @@ void main() {
       // await tester.pump();
 
       // // ตรวจสอบว่ามีการแสดงข้อความ error 'Login failed'
-      // xxxxx____10.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+      // expect(xxxxx____10.จงเติมคำตอบที่ถูกต้อง_____xxxxx, findsOneWidget);
     // });
   });
 }
